@@ -87,6 +87,10 @@ console.log(makeStrings([
 // "Kayne West is under age!!", 
 // "Bob Ziroll can go to The Matrix"]
 
+// Version Ternaire
+
+// x.age >= 18 ? ${x.name} can go to The Matrix : ${x.name} is under age;
+
 function readyToPutInTheDOM(arr){
   let title = arr.map(arr => '<h1>'+arr.name+'</h1>'+'<h2>'+arr.age+'</h2>');
     return title;
